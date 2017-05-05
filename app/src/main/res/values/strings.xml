@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WeatherWidget</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="configure">Configure</string>
+    <string name="add_widget">Add widget</string>
+    <string name="location">Location</string>
+    <string name="temp_unit">Temperature Unit</string>
+    <string name="update_frequency">Update Every</string>
+</resources>

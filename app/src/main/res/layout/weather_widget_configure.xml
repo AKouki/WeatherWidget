@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/location"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- Clickable TextView (to change value) -->
+    <TextView
+        android:id="@+id/textViewLocation"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="-12dp"
+        android:gravity="center|left"
+        android:text="Athens" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/temp_unit"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- Clickable TextView (to change value) -->
+    <TextView
+        android:id="@+id/textViewUnit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="-12dp"
+        android:gravity="center|left"
+        android:text="Celsius" />
+
+    <Button
+        android:id="@+id/add_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:enabled="false"
+        android:text="@string/add_widget" />
+
+</LinearLayout>
